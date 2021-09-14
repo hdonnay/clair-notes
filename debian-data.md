@@ -28,6 +28,10 @@ The file `data/CVE/list` seems to be a master list in a format like:
 	[ID]
 		<SLUG>[: explanation]
 		- [release] package [version|reason] [severity]
+		
+Amahajan on the #clair IRC seems to have found the parser:
+
+><amahajan> I think its this part - https://salsa.debian.org/security-tracker-team/security-tracker/-/blob/master/lib/python/sectracker/parsers.py#L140-141
 
 [ovalfeed]: https://www.debian.org/security/oval/
 [ovalscript]: https://salsa.debian.org/webmaster-team/webwml/-/blob/master/english/security/oval/generate.py
